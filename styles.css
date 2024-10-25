@@ -1,0 +1,68 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background: url('https://images.unsplash.com/photo-1603032719177-b8e2b2e8f3f1') no-repeat center center fixed; /* Imagem de fundo */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(135deg, #ffcc00, #ff6699); /* Gradiente colorido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h1 {
+    color: #ffffff; /* Cor vibrante para o título */
+}
+
+#search {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 2px solid #ffffff; /* Borda branca */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#searchBtn {
+    padding: 10px;
+    background-color: #ff4d00; /* Cor do botão */
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#searchBtn:hover {
+    background-color: #ff6600; /* Efeito de hover no botão */
+}
+
+.pokemon {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ff6699; /* Borda rosa */
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9); /* Fundo com leve transparência */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon h2 {
+    color: #ff4d00; /* Cor do título do Pokémon */
+}
+
+.pokemon img {
+    width: 100px;
+    height: 100px;
+}
+
+.pokemon p {
+    color: #333; /* Cor do texto */
+}

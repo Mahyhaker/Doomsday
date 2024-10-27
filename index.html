@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Pokédex</title>
+    <title>Pokédex Avançada</title>
 </head>
 <body>
     <div class="container">
-        <h1>Pokédex</h1>
-        <input type="text" id="search" placeholder="Digite o nome ou número do Pokémon" />
-        <button id="searchBtn">Buscar</button>
-        <div id="pokemonContainer"></div>
+        <h1>Pokédex Avançada</h1>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Digite o nome ou número do Pokémon" />
+            <button id="searchBtn">Buscar</button>
+        </div>
+
+        <div id="pokemonContainer" class="pokemon-card hidden"></div>
+
+        <div class="history-container">
+            <h2>Últimas Pesquisas</h2>
+            <div id="searchHistory" class="search-history"></div>
+        </div>
+    </div>
+
+    <div id="loading" class="loading hidden">
+        <div class="pokeball"></div>
     </div>
 
     <script src="script.js"></script>
